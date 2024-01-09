@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\local_auth_android\\intermediates\\merged_res\\release\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\0a716f7d0529fe0a675c80e28771b4d6\\transformed\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\local_auth_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\0a716f7d0529fe0a675c80e28771b4d6\\transformed\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

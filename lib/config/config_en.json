@@ -1,0 +1,357 @@
+{
+    "HorizonLayout": [
+        {
+            "layout": "bannerImage",
+            "isSlider": true,
+            "items": [
+                {
+                    "category": 47,
+                    "image": "https://user-images.githubusercontent.com/1459805/59846818-12672e80-938b-11e9-8184-5f7bfe66f1a2.png",
+                    "padding": 15.0
+                },
+                {
+                    "category": 50,
+                    "image": "https://user-images.githubusercontent.com/1459805/60091575-1f12ca80-976f-11e9-962c-bdccff60d143.png",
+                    "padding": 15.0
+                },
+                {
+                    "category": 53,
+                    "image": "https://user-images.githubusercontent.com/1459805/60091808-a19b8a00-976f-11e9-9cc7-576ca05c2442.png",
+                    "padding": 15.0
+                }
+            ]
+        },
+        {
+            "showCartIcon": true,
+            "boxShadow": {
+                "spreadRadius": 10,
+                "colorOpacity": 0.1,
+                "blurRadius": 14,
+                "x": 0,
+                "y": 6
+            },
+            "imageBoxfit": "cover",
+            "showStockStatus": true,
+            "featured": false,
+            "backgroundBoxFit": "contain",
+            "showCountDown": true,
+            "columns": 0,
+            "hideStore": false,
+            "backgroundImage": "https://pwa.outletbkk.com/pub/media/icon/sale.png",
+            "vPadding": 6,
+            "showQuantity": false,
+            "showHeart": true,
+            "hMargin": 9,
+            "showCartButtonWithQuantity": false,
+            "vMargin": 30,
+            "onSale": false,
+            "tag": null,
+            "backgroundColor": "ffffd9e9",
+            "showCartIconColor": true,
+            "hPadding": 8,
+            "hidePrice": false,
+            "rows": 1,
+            "enableBottomAddToCart": false,
+            "layout": "saleOff",
+            "enableRating": true,
+            "imageRatio": 1.2,
+            "hideTitle": false,
+            "borderRadius": 12,
+            "backgroundHeight": 288,
+            "cardDesign": "card",
+            "backgroundRadius": 0,
+            "isSnapping": true,
+            "showCartButton": false,
+            "name": "Flash Sale Today ⚡️",
+            "cartIconRadius": 9,
+            "spaceWidth": 156.53672329215112,
+            "category": 48
+        },
+        {
+            "layout": "category",
+            "type": "icon",
+            "wrap": false,
+            "size": 1.0,
+            "radius": 50.0,
+            "items": [
+                {
+                    "category": 47,
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/62820029-2e679f00-bb88-11e9-80de-fdf115cfd942.png",
+                    "colors": [
+                        "#3CC2BF",
+                        "#3CC2BF"
+                    ],
+                    "originalColor": false
+                },
+                {
+                    "category": 50,
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/808726.png",
+                    "colors": [
+                        "#3E6AB5",
+                        "#3E6AB5"
+                    ]
+                },
+                {
+                    "category": 53,
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/dress.png",
+                    "colors": [
+                        "#53A2CC",
+                        "#53A2CC"
+                    ]
+                },
+                {
+                    "category": 42,
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/accessories.png",
+                    "colors": [
+                        "#53688A",
+                        "#53688A"
+                    ]
+                }
+            ]
+        },
+        {
+            "layout": "bannerImage",
+            "items": [
+                {
+                    "category": 47,
+                    "image": "https://user-images.githubusercontent.com/1459805/59846820-12672e80-938b-11e9-8fa6-b331b7db331d.png",
+                    "padding": 5.0
+                }
+            ]
+        },
+        {
+            "layout": "bannerImage",
+            "items": [
+                {
+                    "category": 50,
+                    "image": "https://user-images.githubusercontent.com/1459805/59846823-12ffc500-938b-11e9-8d93-65ead3d6b1dd.png",
+                    "padding": 5.0
+                },
+                {
+                    "category": 53,
+                    "image": "https://user-images.githubusercontent.com/1459805/59846824-12ffc500-938b-11e9-8d5a-fc42cb1b7658.png",
+                    "padding": 5.0
+                }
+            ]
+        },
+        {
+            "name": "Tops Collections",
+            "image": "",
+            "layout": "threeColumn",
+            "category": 48
+        },
+        {
+            "layout": "bannerImage",
+            "design": "swiper",
+            "fit": "fitWidth",
+            "marginLeft": 0,
+            "items": [
+                {
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/bc2352bd25234587671f5638fe8aa610.jpg"
+                },
+                {
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/62834031-28012200-bc71-11e9-9980-f090df262343.jpg"
+                },
+                {
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/e3199a848dfc555f77f194c14f4b51fd.jpg_720x720q80.jpg"
+                },
+                {
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/men-s-running-shoes-jogflow-100-1-grey-orange-kalenji-8733470.jpg"
+                }
+            ],
+            "marginBottom": 0,
+            "marginRight": 0,
+            "marginTop": 10,
+            "radius": 20,
+            "padding": 0,
+            "isSlider": true,
+            "autoPlay": true,
+            "intervalTime": 3,
+            "showNumber": false,
+            "isBlur": false,
+            "showBackground": false,
+            "upHeight": "0.0"
+        },
+        {
+            "name": "Bottoms Collections",
+            "image": "",
+            "layout": "twoColumn",
+            "category": 51
+        }
+    ],
+    "searchSuggestion": [
+        "bottoms",
+        "dress",
+        "tops"
+    ],
+    "Setting": {
+        "TabBarConfig": {
+            "enable": true,
+            "showMinimize": false,
+            "isSafeArea": true,
+            "color": null,
+            "colorCart": "fffe2060",
+            "colorIcon": "ff7a7b7f",
+            "colorActiveIcon": "ff1d34c5",
+            "iconSize": 23.025228226675463,
+            "indicatorStyle": "material",
+            "showFloatingClip": true,
+            "showFloating": true,
+            "enableOnTop": false,
+            "enableDivider": true,
+            "radiusTopLeft": 0.0,
+            "radiusTopRight": 0.0,
+            "radiusBottomLeft": 0.0,
+            "radiusBottomRight": 0.0,
+            "paddingLeft": 0.0,
+            "paddingRight": 0.0,
+            "paddingBottom": 0.0,
+            "paddingTop": 0.0,
+            "marginTop": 0.0,
+            "marginBottom": 0.0,
+            "marginLeft": 0.0,
+            "marginRight": 0.0,
+            "TabBarIndicator": {
+                "height": 0.0,
+                "tabPosition": "top",
+                "topRightRadius": 0.0,
+                "topLeftRadius": 0.0,
+                "bottomRightRadius": 9.988863169703269,
+                "bottomLeftRadius": 9.980371609191021,
+                "color": "ff1d34c5",
+                "horizontalPadding": 0.0,
+                "verticalPadding": 0.0,
+                "strokeWidth": 0.0,
+                "radius": 0.0,
+                "distanceFromCenter": 0.0,
+                "paintingStyle": "fill"
+            },
+            "TabBarFloating": {
+                "position": 2,
+                "radius": 50.0,
+                "color": "ff1d34c5",
+                "location": "centerDocked",
+                "width": 50.0,
+                "height": 50.0,
+                "elevation": 2.005172228538149,
+                "floatingType": "rectangle",
+                "notchMargin": 4.0,
+                "isCoverMode": false
+            }
+        },
+        "FontFamily": "Kanit",
+        "FontHeader": "Kanit",
+        "MainColor": "#3FC1BE",
+        "ShowChat": true,
+        "ProductListLayout": "list",
+        "StickyHeader": false
+    },
+    "TabBar": [
+        {
+            "layout": "home",
+            "pos": 100,
+            "icon": "assets/icons/tabs/icon-home.png",
+            "key": "ijBzjiRbZy"
+        },
+        {
+            "layout": "category",
+            "pos": 200,
+            "icon": "assets/icons/tabs/icon-category.png",
+            "categoryLayout": "card",
+            "key": "hMAxatGyLG"
+        },
+        {
+            "layout": "cart",
+            "pos": 400,
+            "icon": "assets/icons/tabs/icon-cart2.png",
+            "key": "VGarVEuUam"
+        },
+        {
+            "key": "GWXaxLqsEJ",
+            "layout": "wishlist",
+            "icon": "favorite_border",
+            "fontFamily": "MaterialIcons",
+            "pos": 504,
+            "visible": true,
+            "defaultTab": false,
+            "fullscreen": false
+        },
+        {
+            "layout": "profile",
+            "showChat": true,
+            "pos": 500,
+            "icon": "assets/icons/tabs/icon-user.png",
+            "key": "ZUJvVRyqmS"
+        }
+    ],
+    "AppBar":{
+        "elevation":0,
+        "pinned":true,
+        "showOnScreens":["home"],
+        "enable":true,
+        "floating":true,
+        "alwaysShowAppBar":false,
+        "expandedItems":[],
+        "items":[
+            {
+                "spacingText":3,
+                "paddingRight":16,
+                "icon":"search",
+                "type":"search",
+                "title":"Find your coffee...",
+                "marginRight":4,
+                "avatarRadius":100,
+                "headerFontWeight":"400",
+                "fontFamily":"CupertinoIcons",
+                "paddingBottom":4,
+                "headerFontSize":16,
+                "pos":400,
+                "action":"search",
+                "iconSize":20,
+                "paddingTop":4,
+                "radius":100,
+                "fontWeight":"400",
+                "key":"kr72qonmst",
+                "backgroundColor":"a000000",
+                "headerTextOpacity":0.5,
+                "marginLeft":4,
+                "size":40,
+                "textOpacity":0.5,
+                "fontSize":16,
+                "marginBottom":10,
+                "alignment":"center",
+                "paddingLeft":16,
+                "marginTop":4
+            },
+            {
+                "spacingText":3,
+                "paddingRight":4,
+                "icon":"bell_solid",
+                "type":"icon",
+                "marginRight":16,
+                "avatarRadius":100,
+                "headerFontWeight":"400",
+                "fontFamily":"CupertinoIcons",
+                "paddingBottom":4,
+                "headerFontSize":16,
+                "pos":500,
+                "action":"notification",
+                "iconSize":20,
+                "paddingTop":4,
+                "radius":100,
+                "fontWeight":"400",
+                "key":"unk1xg9vr0",
+                "backgroundColor":"a000000",
+                "headerTextOpacity":0.5,
+                "marginLeft":4,
+                "size":48,
+                "textOpacity":0.5,
+                "fontSize":16,
+                "marginBottom":10,
+                "alignment":"center",
+                "paddingLeft":4,
+                "marginTop":4
+            }
+        ],
+        "snap":true}
+}

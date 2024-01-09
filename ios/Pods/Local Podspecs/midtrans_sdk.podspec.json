@@ -1,0 +1,38 @@
+{
+  "name": "midtrans_sdk",
+  "version": "0.3.4",
+  "summary": "A new flutter plugin project.",
+  "description": "A Flutter plugin for Midtrans Mobile SDK. Supports iOS and Android.",
+  "homepage": "http://github.com/tomykho/midtrans_sdk",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Tomy Kho": "mail@tomykho.dev"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "ios": {
+    "dependencies": {
+      "MidtransKit": [
+        "1.20.1"
+      ]
+    }
+  },
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  }
+}

@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\firebase_auth\\intermediates\\merged_res\\release\\values-en-rIN\\values-en-rIN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\85d6d2a0986cbbe8eb2c326f8eefa539\\transformed\\browser-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,153,250,359",
+                        "endColumns": "97,96,108,98",
+                        "endOffsets": "148,245,354,453"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\973f3f3eb6c8a42b30a1931cb1fb9c2f\\transformed\\core-1.6.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "458",
+                        "endColumns": "100",
+                        "endOffsets": "554"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\firebase_auth\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\85d6d2a0986cbbe8eb2c326f8eefa539\\transformed\\browser-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,153,250,359",
+                        "endColumns": "97,96,108,98",
+                        "endOffsets": "148,245,354,453"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\973f3f3eb6c8a42b30a1931cb1fb9c2f\\transformed\\core-1.6.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "458",
+                        "endColumns": "100",
+                        "endOffsets": "554"
+                    }
+                }
+            ]
+        }
+    ]
+}

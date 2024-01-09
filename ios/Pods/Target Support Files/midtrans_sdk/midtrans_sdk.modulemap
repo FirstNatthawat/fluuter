@@ -1,0 +1,6 @@
+framework module midtrans_sdk {
+  umbrella header "midtrans_sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

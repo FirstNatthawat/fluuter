@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\in_app_update\\intermediates\\merged_res\\release\\values-tr\\values-tr.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\5bdce7223c938af4696c975596be85a1\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-tr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "142",
+                        "endOffsets": "337"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "146",
+                        "endOffsets": "197"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\973f3f3eb6c8a42b30a1931cb1fb9c2f\\transformed\\core-1.6.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "202",
+                        "endColumns": "100",
+                        "endOffsets": "298"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\in_app_update\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-tr\\values-tr.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\5bdce7223c938af4696c975596be85a1\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-tr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "142",
+                        "endOffsets": "337"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "146",
+                        "endOffsets": "197"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\973f3f3eb6c8a42b30a1931cb1fb9c2f\\transformed\\core-1.6.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "202",
+                        "endColumns": "100",
+                        "endOffsets": "298"
+                    }
+                }
+            ]
+        }
+    ]
+}

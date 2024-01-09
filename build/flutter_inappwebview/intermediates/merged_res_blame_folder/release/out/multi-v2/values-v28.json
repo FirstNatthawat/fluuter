@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\values-v28\\values-v28.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\0ee3f66a00416de607d80045b1572207\\transformed\\appcompat-1.5.1\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,397",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,392,584"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\flutter_inappwebview\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v28\\values-v28.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\0ee3f66a00416de607d80045b1572207\\transformed\\appcompat-1.5.1\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,397",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,392,584"
+                    }
+                }
+            ]
+        }
+    ]
+}

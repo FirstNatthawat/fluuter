@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\first\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\.cxx\\RelWithDebInfo\\2j4zk234\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\first\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\.cxx\\RelWithDebInfo\\2j4zk234\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "rive_text::@6890427a1f51a3e7e1df": {
+      "artifactName": "rive_text",
+      "abi": "x86",
+      "output": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\rive_common\\intermediates\\cxx\\RelWithDebInfo\\2j4zk234\\obj\\x86\\librive_text.so",
+      "runtimeFiles": []
+    }
+  }
+}

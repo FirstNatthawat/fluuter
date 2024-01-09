@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\firebase_analytics\\intermediates\\merged_res\\release\\values-nb\\values-nb.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\5bdce7223c938af4696c975596be85a1\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "125",
+                        "endOffsets": "320"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "129",
+                        "endOffsets": "180"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\973f3f3eb6c8a42b30a1931cb1fb9c2f\\transformed\\core-1.6.0\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "185",
+                        "endColumns": "100",
+                        "endOffsets": "281"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\firebase_analytics\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-nb\\values-nb.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\5bdce7223c938af4696c975596be85a1\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "125",
+                        "endOffsets": "320"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "129",
+                        "endOffsets": "180"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\973f3f3eb6c8a42b30a1931cb1fb9c2f\\transformed\\core-1.6.0\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "185",
+                        "endColumns": "100",
+                        "endOffsets": "281"
+                    }
+                }
+            ]
+        }
+    ]
+}

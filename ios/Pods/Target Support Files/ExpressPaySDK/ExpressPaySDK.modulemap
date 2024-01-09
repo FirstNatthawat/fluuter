@@ -1,0 +1,6 @@
+framework module ExpressPaySDK {
+  umbrella header "ExpressPaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\video_player_android\\intermediates\\merged_res\\release\\values-hu\\values-hu.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\92a8b884ff9d25fdead19d640a32cf47\\transformed\\core-1.7.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "754",
+                        "endColumns": "100",
+                        "endOffsets": "850"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\41ed6b1340fc78c31e799149319ff989\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,130,192,266,338,416,489,583,673",
+                        "endColumns": "74,61,73,71,77,72,93,89,80",
+                        "endOffsets": "125,187,261,333,411,484,578,668,749"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\video_player_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hu\\values-hu.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\92a8b884ff9d25fdead19d640a32cf47\\transformed\\core-1.7.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "754",
+                        "endColumns": "100",
+                        "endOffsets": "850"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\41ed6b1340fc78c31e799149319ff989\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,130,192,266,338,416,489,583,673",
+                        "endColumns": "74,61,73,71,77,72,93,89,80",
+                        "endOffsets": "125,187,261,333,411,484,578,668,749"
+                    }
+                }
+            ]
+        }
+    ]
+}

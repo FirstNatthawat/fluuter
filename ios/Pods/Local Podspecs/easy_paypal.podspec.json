@@ -1,0 +1,34 @@
+{
+  "name": "easy_paypal",
+  "version": "1.0.0",
+  "summary": "Easy Native Paypal Checkout",
+  "description": "Easy Native Paypal Checkout.",
+  "homepage": "http://inspireui.com",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "InspireUI": "hi@inspireui.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "PayPalCheckout": [
+      "= 0.112.2"
+    ]
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_versions": "5.5",
+  "swift_version": "5.5"
+}

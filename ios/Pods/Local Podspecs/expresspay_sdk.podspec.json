@@ -1,0 +1,34 @@
+{
+  "name": "expresspay_sdk",
+  "version": "0.0.1",
+  "summary": "A Flutter plugin for ExpressPaySDK.",
+  "description": "ExpressPay Flutter plugin was developed and designed with one purpose: to help the iOS/Android developers easily integrate the ExpressPay API Payment Platform for a specific merchant.",
+  "homepage": "https://expresspay.sa",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Express Pay": "itsupport@expresspay.sa"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "ExpressPaySDK": [
+      "~> 1.1.1"
+    ]
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

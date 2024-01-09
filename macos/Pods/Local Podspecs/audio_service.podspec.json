@@ -1,0 +1,30 @@
+{
+  "name": "audio_service",
+  "version": "0.14.1",
+  "summary": "Flutter plugin to play audio in the background while the screen is off.",
+  "description": "Flutter plugin to play audio in the background while the screen is off.",
+  "homepage": "https://github.com/ryanheise/audio_service",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Ryan Heise": "ryan@ryanheise.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "FlutterMacOS": [
+
+    ]
+  },
+  "platforms": {
+    "osx": "10.12.2"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

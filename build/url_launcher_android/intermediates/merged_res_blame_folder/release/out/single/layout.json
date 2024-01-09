@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\url_launcher_android\\intermediates\\merged_res\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\feaa8900915c33a8a4b8a672dd6ffefc\\transformed\\core-1.10.1\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\url_launcher_android\\intermediates\\merged_res\\release\\layout\\browser_actions_context_menu_page.xml",
+        "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\67c05d0893705acdf1eeba87c72fe2d2\\transformed\\browser-1.5.0\\res\\layout\\browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\url_launcher_android\\intermediates\\merged_res\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\feaa8900915c33a8a4b8a672dd6ffefc\\transformed\\core-1.10.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\url_launcher_android\\intermediates\\merged_res\\release\\layout\\browser_actions_context_menu_row.xml",
+        "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\67c05d0893705acdf1eeba87c72fe2d2\\transformed\\browser-1.5.0\\res\\layout\\browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\url_launcher_android\\intermediates\\merged_res\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\feaa8900915c33a8a4b8a672dd6ffefc\\transformed\\core-1.10.1\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\url_launcher_android\\intermediates\\merged_res\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\feaa8900915c33a8a4b8a672dd6ffefc\\transformed\\core-1.10.1\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\url_launcher_android\\intermediates\\merged_res\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\feaa8900915c33a8a4b8a672dd6ffefc\\transformed\\core-1.10.1\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\url_launcher_android\\intermediates\\merged_res\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\first\\.gradle\\caches\\transforms-3\\feaa8900915c33a8a4b8a672dd6ffefc\\transformed\\core-1.10.1\\res\\layout\\notification_template_part_time.xml"
+    }
+]

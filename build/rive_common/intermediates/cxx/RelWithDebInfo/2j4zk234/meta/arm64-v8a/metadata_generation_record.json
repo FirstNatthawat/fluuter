@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: arm64-v8a",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1376977788
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\.cxx\\RelWithDebInfo\\2j4zk234\\arm64-v8a\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -909831993
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\.cxx\\RelWithDebInfo\\2j4zk234\\arm64-v8a\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 648965583
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\.cxx\\RelWithDebInfo\\2j4zk234\\arm64-v8a\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1399338483
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -56261433
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\.cxx\\RelWithDebInfo\\2j4zk234\\arm64-v8a\u0027",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 582563455
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : C:\\Users\\first\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HC:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DANDROID_NDK\u003dC:\\Users\\first\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\first\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\first\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\first\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\rive_common\\intermediates\\cxx\\RelWithDebInfo\\2j4zk234\\obj\\arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\rive_common\\intermediates\\cxx\\RelWithDebInfo\\2j4zk234\\obj\\arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-BC:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\.cxx\\RelWithDebInfo\\2j4zk234\\arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2092528364
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\first\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HC:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DANDROID_NDK\u003dC:\\Users\\first\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\first\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\first\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\first\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\rive_common\\intermediates\\cxx\\RelWithDebInfo\\2j4zk234\\obj\\arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\build\\rive_common\\intermediates\\cxx\\RelWithDebInfo\\2j4zk234\\obj\\arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-BC:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\.cxx\\RelWithDebInfo\\2j4zk234\\arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1018613067
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\.cxx\\RelWithDebInfo\\2j4zk234\\arm64-v8a\\compile_commands.json.bin normally",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 865170421
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -368607684
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\.cxx\\RelWithDebInfo\\2j4zk234\\arm64-v8a\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1233747281
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\first\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\rive_common-0.2.6\\android\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1569465400
+  }
+]

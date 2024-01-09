@@ -1,0 +1,1 @@
+ D:\\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\\.dart_tool\\flutter_build\\71c66e70ae6706ee2dac8ece4b25a92c\\native_assets.yaml: 

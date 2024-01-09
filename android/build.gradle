@@ -1,0 +1,41 @@
+buildscript {
+    ext.kotlin_version = '1.8.0'
+    repositories {
+        google()
+        //mavenCentral()
+                 maven { url 'https://plugins.gradle.org/m2/' }
+
+    }
+
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.10' // Use the latest version
+        classpath 'com.android.tools.build:gradle:7.1.0' // Use the latest version
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+
+        // Zoho SalesIQ Mobilisten
+        // maven {
+          //   url 'https://maven.zohodl.com'
+     //}
+
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

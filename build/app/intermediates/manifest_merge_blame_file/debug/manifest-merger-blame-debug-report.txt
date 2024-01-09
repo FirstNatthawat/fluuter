@@ -1,0 +1,1709 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.inspireui.fluxstore"
+4    android:versionCode="3000"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:5:5-67
+14-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:4:5-70
+15-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:4:22-68
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:6:5-79
+16-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:6:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:7:5-81
+17-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:7:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:8:5-79
+18-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:8:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:9:5-68
+19-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:9:22-65
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:10:5-77
+20-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:10:22-74
+21    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+21-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:11:5-76
+21-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:11:22-73
+22    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+22-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:12:5-75
+22-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:12:22-72
+23    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- Use for showing notification -->
+23-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:14:5-71
+23-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:14:22-69
+24    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Use for take photo and photo gallery feature -->
+24-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:17:5-76
+24-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:17:22-74
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:21:5-65
+25-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:21:22-62
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Use for printer POS feature -->
+26-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:22:5-80
+26-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:22:22-77
+27    <!-- <uses-permission android:name="android.permission.BLUETOOTH" /> -->
+28    <!-- <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> -->
+29    <!-- Use for SmartChat feature -->
+30    <queries>
+30-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:29:5-76:15
+31        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" />
+31-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:30:9-89
+31-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:30:19-86
+32
+33        <!-- Use for speech recognition permission -->
+34        <intent>
+34-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:33:9-35:18
+35            <action android:name="android.speech.RecognitionService" />
+35-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:34:13-72
+35-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:34:21-69
+36        </intent>
+37        <intent>
+37-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:36:9-39:18
+38            <action android:name="android.intent.action.VIEW" />
+38-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+38-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+39
+40            <data android:scheme="https" />
+41        </intent>
+42        <intent>
+42-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:40:9-43:18
+43            <action android:name="android.intent.action.DIAL" />
+43-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:41:13-65
+43-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:41:21-62
+44
+45            <data android:scheme="tel" />
+46        </intent>
+47        <intent>
+47-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:44:9-47:18
+48            <action android:name="android.intent.action.SENDTO" />
+48-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:45:13-67
+48-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:45:21-64
+49
+50            <data android:scheme="smsto" />
+51        </intent>
+52        <intent>
+52-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:48:9-51:18
+53            <action android:name="android.intent.action.SEND" />
+53-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:49:13-65
+53-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:49:21-62
+54
+55            <data android:mimeType="*/*" />
+56        </intent>
+57        <intent>
+57-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:52:9-55:18
+58            <action android:name="android.intent.action.VIEW" />
+58-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+58-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+59
+60            <data android:scheme="whatsapp" />
+61        </intent>
+62        <intent>
+62-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:56:9-59:18
+63            <action android:name="android.intent.action.VIEW" />
+63-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+63-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+64
+65            <data android:scheme="instagram" />
+66        </intent>
+67        <intent>
+67-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:60:9-63:18
+68            <action android:name="android.intent.action.VIEW" />
+68-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+68-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+69
+70            <data android:scheme="instagram-stories" />
+71        </intent>
+72        <intent>
+72-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:64:9-67:18
+73            <action android:name="android.intent.action.VIEW" />
+73-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+73-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+74
+75            <data android:scheme="twitter" />
+76        </intent>
+77        <intent>
+77-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:68:9-71:18
+78            <action android:name="android.intent.action.VIEW" />
+78-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+78-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+79
+80            <data android:scheme="fb" />
+81        </intent>
+82        <intent>
+82-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:72:9-75:18
+83            <action android:name="android.intent.action.VIEW" />
+83-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+83-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+84
+85            <data android:scheme="tg" />
+86        </intent>
+87        <intent>
+87-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+88            <action android:name="android.support.customtabs.action.CustomTabsService" />
+88-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+88-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-87
+89        </intent>
+90        <intent>
+90-->[:file_picker] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:18
+91            <action android:name="android.intent.action.GET_CONTENT" />
+91-->[:file_picker] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-72
+91-->[:file_picker] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:21-69
+92
+93            <data android:mimeType="*/*" />
+94        </intent> <!-- Specific apps you interact with, eg: -->
+95        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" />
+95-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:12:9-88
+95-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:12:18-85
+96        <!--
+97             Specific intents you query for,
+98             eg: for a custom share UI
+99        -->
+100        <intent>
+100-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:17:9-19:18
+101            <action android:name="android.intent.action.MAIN" />
+101-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:18:13-65
+101-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:18:21-62
+102        </intent>
+103
+104        <package android:name="com.facebook.katana" />
+104-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:18:9-55
+104-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:18:18-52
+105
+106        <intent>
+106-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:11:9-17:18
+107            <action android:name="android.intent.action.VIEW" />
+107-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+107-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+108
+109            <data
+110                android:mimeType="*/*"
+111                android:scheme="*" />
+112        </intent>
+113        <intent>
+113-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:18:9-27:18
+114            <action android:name="android.intent.action.VIEW" />
+114-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+114-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+115
+116            <category android:name="android.intent.category.BROWSABLE" />
+116-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:17-78
+116-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:27-75
+117
+118            <data
+119                android:host="pay"
+120                android:mimeType="*/*"
+121                android:scheme="upi" />
+122        </intent>
+123        <intent>
+123-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:36:9-38:18
+124            <action android:name="rzp.device_token.share" />
+124-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:37:13-61
+124-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:37:21-58
+125        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+126        <package android:name="com.google.android.apps.maps" /> <!-- For browser content -->
+126-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\first\.gradle\caches\transforms-3\4d22428f93a627eb45905c23e44f5777\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+126-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\first\.gradle\caches\transforms-3\4d22428f93a627eb45905c23e44f5777\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+127        <intent>
+127-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:35:9-41:18
+128            <action android:name="android.intent.action.VIEW" />
+128-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+128-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+129
+130            <category android:name="android.intent.category.BROWSABLE" />
+130-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:17-78
+130-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:27-75
+131
+132            <data android:scheme="https" />
+133        </intent>
+134    </queries>
+135
+136    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+137    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+138    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+138-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+138-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+139    <uses-permission android:name="android.permission.VIBRATE" />
+139-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+139-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+140    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+140-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+140-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+141    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+141-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+141-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+142    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+142-->[:speech_to_text] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-76
+142-->[:speech_to_text] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-73
+143    <permission
+143-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:10:5-12:47
+144        android:name="com.inspireui.fluxstore.permission.C2D_MESSAGE"
+144-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:11:9-63
+145        android:protectionLevel="signature" />
+145-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:12:9-44
+146
+147    <uses-permission android:name="com.inspireui.fluxstore.permission.C2D_MESSAGE" /> <!-- c2dm RECEIVE are basic requirements for push messages through Google's FCM -->
+147-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:14:5-79
+147-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:14:22-76
+148    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- START: ShortcutBadger -->
+148-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:19:5-82
+148-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:19:22-79
+149    <!-- Samsung -->
+150    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+150-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:31:5-86
+150-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:31:22-83
+151    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+151-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:32:5-87
+151-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:32:22-84
+152    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+152-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:33:5-81
+152-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:33:22-78
+153    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+153-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:34:5-83
+153-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:34:22-80
+154    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+154-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:35:5-88
+154-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:35:22-85
+155    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+155-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:36:5-92
+155-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:36:22-89
+156    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+156-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:37:5-84
+156-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:37:22-81
+157    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+157-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:38:5-83
+157-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:38:22-80
+158    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+158-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:39:5-91
+158-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:39:22-88
+159    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+159-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:40:5-92
+159-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:40:22-89
+160    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+160-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:41:5-93
+160-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:41:22-90
+161    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+161-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:42:5-73
+161-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:42:22-70
+162    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+162-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:43:5-82
+162-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:43:22-79
+163    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+163-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:44:5-83
+163-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:44:22-80
+164    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+164-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:45:5-88
+164-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:45:22-85
+165    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" /> <!-- suppress DeprecatedClassUsageInspection -->
+165-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:46:5-89
+165-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:46:22-86
+166    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+166-->[androidx.biometric:biometric:1.1.0] C:\Users\first\.gradle\caches\transforms-3\60651aded762e91a3f71763bced2c859\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+166-->[androidx.biometric:biometric:1.1.0] C:\Users\first\.gradle\caches\transforms-3\60651aded762e91a3f71763bced2c859\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+167
+168    <uses-feature
+168-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\first\.gradle\caches\transforms-3\4d22428f93a627eb45905c23e44f5777\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+169        android:glEsVersion="0x00020000"
+169-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\first\.gradle\caches\transforms-3\4d22428f93a627eb45905c23e44f5777\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+170        android:required="true" />
+170-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\first\.gradle\caches\transforms-3\4d22428f93a627eb45905c23e44f5777\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+171
+172    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+172-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\first\.gradle\caches\transforms-3\d8eba2e0803bdf8557d8dafb42c93f0a\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:5-79
+172-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\first\.gradle\caches\transforms-3\d8eba2e0803bdf8557d8dafb42c93f0a\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:22-76
+173    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+173-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
+173-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+174
+175    <permission
+175-->[androidx.core:core:1.10.1] C:\Users\first\.gradle\caches\transforms-3\feaa8900915c33a8a4b8a672dd6ffefc\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+176        android:name="com.inspireui.fluxstore.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+176-->[androidx.core:core:1.10.1] C:\Users\first\.gradle\caches\transforms-3\feaa8900915c33a8a4b8a672dd6ffefc\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+177        android:protectionLevel="signature" />
+177-->[androidx.core:core:1.10.1] C:\Users\first\.gradle\caches\transforms-3\feaa8900915c33a8a4b8a672dd6ffefc\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+178
+179    <uses-permission android:name="com.inspireui.fluxstore.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+179-->[androidx.core:core:1.10.1] C:\Users\first\.gradle\caches\transforms-3\feaa8900915c33a8a4b8a672dd6ffefc\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+179-->[androidx.core:core:1.10.1] C:\Users\first\.gradle\caches\transforms-3\feaa8900915c33a8a4b8a672dd6ffefc\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+180    <uses-feature
+180-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+181        android:name="android.hardware.camera"
+181-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+182        android:required="false" />
+182-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+183    <uses-feature
+183-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+184        android:name="android.hardware.camera.front"
+184-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+185        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+185-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+186    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+187    <uses-feature
+187-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+188        android:name="android.hardware.camera.autofocus"
+188-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+189        android:required="false" />
+189-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+190    <uses-feature
+190-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+191        android:name="android.hardware.camera.flash"
+191-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+192        android:required="false" />
+192-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+193    <uses-feature
+193-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+194        android:name="android.hardware.screen.landscape"
+194-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+195        android:required="false" />
+195-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+196    <uses-feature
+196-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+197        android:name="android.hardware.wifi"
+197-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+198        android:required="false" />
+198-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+199
+200    <application
+201        android:name="android.app.Application"
+202        android:allowBackup="true"
+203        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+203-->[androidx.core:core:1.10.1] C:\Users\first\.gradle\caches\transforms-3\feaa8900915c33a8a4b8a672dd6ffefc\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+204        android:dataExtractionRules="@xml/data_extraction_rules"
+205        android:debuggable="true"
+206        android:fullBackupContent="@xml/backup_rules"
+207        android:icon="@mipmap/launcher_icon"
+208        android:label="@string/app_name"
+209        android:requestLegacyExternalStorage="true"
+210        android:supportsRtl="true"
+210-->[com.facebook.android:facebook-login:16.1.3] C:\Users\first\.gradle\caches\transforms-3\bf008607e7391ae047b03486c87bc9b1\transformed\jetified-facebook-login-16.1.3\AndroidManifest.xml:16:18-44
+211        android:theme="@style/AppTheme"
+212        android:usesCleartextTraffic="true" >
+213        <activity
+214            android:name="com.inspireui.fluxstore.MainActivity"
+215            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+216            android:exported="true"
+217            android:hardwareAccelerated="true"
+218            android:launchMode="singleTop"
+219            android:theme="@style/LaunchTheme"
+220            android:windowSoftInputMode="adjustResize" >
+221
+222            <!--
+223                 Specifies an Android theme to apply to this Activity as soon as
+224                 the Android process has started. This theme is visible to the user
+225                 while the Flutter UI initializes. After that, this theme continues
+226                 to determine the Window background behind the Flutter UI.
+227            -->
+228            <meta-data
+229                android:name="io.flutter.embedding.android.NormalTheme"
+230                android:resource="@style/NormalTheme" />
+231
+232            <intent-filter>
+233                <action android:name="android.intent.action.MAIN" />
+233-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:18:13-65
+233-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:18:21-62
+234
+235                <category android:name="android.intent.category.LAUNCHER" />
+236            </intent-filter>
+237            <intent-filter>
+238                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+239
+240                <category android:name="android.intent.category.DEFAULT" />
+240-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:17-76
+240-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:27-73
+241            </intent-filter>
+242
+243            <meta-data
+244                android:name="default-url"
+245                android:value="https://pwa.outletbkk.com" />
+246
+247            <intent-filter android:autoVerify="true" >
+248                <action android:name="android.intent.action.VIEW" />
+248-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+248-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+249
+250                <category android:name="android.intent.category.DEFAULT" />
+250-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:17-76
+250-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:27-73
+251                <category android:name="android.intent.category.BROWSABLE" />
+251-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:17-78
+251-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:27-75
+252
+253                <data
+254                    android:host="pwa.outletbkk.com"
+255                    android:scheme="https" />
+256                <data android:scheme="http" />
+257            </intent-filter>
+258            <intent-filter>
+259                <action android:name="android.intent.action.VIEW" />
+259-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+259-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+260
+261                <category android:name="android.intent.category.DEFAULT" />
+261-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:17-76
+261-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:27-73
+262                <category android:name="android.intent.category.BROWSABLE" />
+262-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:17-78
+262-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:27-75
+263
+264                <data
+265                    android:host="pwa.outletbkk.com"
+266                    android:scheme="fluxstore" />
+267            </intent-filter>
+268        </activity>
+269
+270        <meta-data
+271            android:name="com.google.android.gms.wallet.api.enabled"
+272            android:value="true" />
+273        <meta-data
+274            android:name="com.google.firebase.messaging.default_notification_channel_id"
+275            android:value="@string/default_notification_channel_id" />
+276        <meta-data
+277            android:name="com.google.firebase.messaging.default_notification_icon"
+278            android:resource="@drawable/logo" />
+279        <!--
+280             Set color used with incoming notification messages. This is used when no color is set for the incoming
+281            notification message. See README(https://goo.gl/6BKBk7) for more.
+282        -->
+283        <meta-data
+284            android:name="com.google.firebase.messaging.default_notification_color"
+285            android:resource="@color/notiColor" />
+286        <!-- Google map and Admod setup -->
+287        <meta-data
+288            android:name="com.google.android.geo.API_KEY"
+289            android:value="AIzaSyDSNYVC-8DU9BTcyqkeN9c5pgVhwOBAvGg" />
+290        <meta-data
+291            android:name="com.google.android.gms.ads.APPLICATION_ID"
+292            android:value="ca-app-pub-7432665165146018~2664444130" />
+293
+294        <!-- Facebook Login configuration -->
+295        <meta-data
+296            android:name="com.facebook.sdk.ApplicationId"
+297            android:value="@string/facebookAppId" />
+298        <meta-data
+299            android:name="com.facebook.sdk.ClientToken"
+300            android:value="9def0493cb40104fa311ee9e1086d264" />
+301        <meta-data
+302            android:name="com.inspireui.ENVATO_PURCHASE_CODE"
+303            android:value="1c79666c-174f-47a5-8dac-6de8e47811f0" />
+304
+305        <!-- Enable to support Audio Feature -->
+306        <!-- <service -->
+307        <!-- android:name="com.ryanheise.audioservice.AudioService" -->
+308        <!-- android:exported="true"> -->
+309        <!-- <intent-filter> -->
+310        <!-- <action android:name="android.media.browse.MediaBrowserService" /> -->
+311        <!-- </intent-filter> -->
+312        <!-- </service> -->
+313
+314
+315        <!-- <receiver -->
+316        <!-- android:name="com.ryanheise.audioservice.MediaButtonReceiver" -->
+317        <!-- android:exported="true"> -->
+318        <!-- <intent-filter> -->
+319        <!-- <action android:name="android.intent.action.MEDIA_BUTTON" /> -->
+320        <!-- </intent-filter> -->
+321        <!-- </receiver> -->
+322
+323
+324        <!--
+325             Don't delete the meta-data below.
+326             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+327        -->
+328        <meta-data
+329            android:name="flutterEmbedding"
+330            android:value="2" />
+331
+332        <receiver
+332-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
+333            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+333-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
+334            android:exported="false" />
+334-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+335        <receiver
+335-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
+336            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+336-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
+337            android:exported="false" />
+337-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+338        <receiver
+338-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
+339            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+339-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
+340            android:exported="false" >
+340-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+341            <intent-filter>
+341-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
+342                <action android:name="android.intent.action.BOOT_COMPLETED" />
+342-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+342-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+343                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+343-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
+343-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
+344                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+344-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
+344-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
+345                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+345-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
+345-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
+346            </intent-filter>
+347        </receiver>
+348
+349        <activity
+349-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:47
+350            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+350-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-104
+351            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+351-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-137
+352            android:exported="false"
+352-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+353            android:theme="@style/AppTheme" />
+353-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+354        <activity
+354-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:55
+355            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+355-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-112
+356            android:exported="false"
+356-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+357            android:theme="@style/ThemeTransparent" />
+357-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-52
+358        <activity
+358-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:55
+359            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+359-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-106
+360            android:exported="false"
+360-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+361            android:theme="@style/ThemeTransparent" />
+361-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-52
+362        <activity
+362-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:55
+363            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+363-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-126
+364            android:exported="false"
+364-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+365            android:launchMode="singleInstance"
+365-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-48
+366            android:theme="@style/ThemeTransparent" />
+366-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+367        <activity
+367-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-38:55
+368            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+368-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-120
+369            android:exported="false"
+369-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+370            android:launchMode="singleInstance"
+370-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-48
+371            android:theme="@style/ThemeTransparent" />
+371-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-52
+372
+373        <receiver
+373-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:40
+374            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+374-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-111
+375            android:enabled="true"
+375-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-35
+376            android:exported="false" />
+376-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-37
+377
+378        <meta-data
+378-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+379            android:name="io.flutter.embedded_views_preview"
+379-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-61
+380            android:value="true" />
+380-->[:flutter_inappwebview] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+381
+382        <provider
+382-->[:image_picker_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+383            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+383-->[:image_picker_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+384            android:authorities="com.inspireui.fluxstore.flutter.image_provider"
+384-->[:image_picker_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+385            android:exported="false"
+385-->[:image_picker_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+386            android:grantUriPermissions="true" >
+386-->[:image_picker_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+387            <meta-data
+387-->[:image_picker_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+388                android:name="android.support.FILE_PROVIDER_PATHS"
+388-->[:image_picker_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+389                android:resource="@xml/flutter_image_picker_file_paths" />
+389-->[:image_picker_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+390        </provider>
+391
+392        <service
+392-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
+393            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+393-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
+394            android:exported="false"
+394-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+395            android:permission="android.permission.BIND_JOB_SERVICE" />
+395-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
+396        <service
+396-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
+397            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+397-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
+398            android:exported="false" >
+398-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+399            <intent-filter>
+399-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+400                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+400-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+400-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+401            </intent-filter>
+402        </service>
+403
+404        <receiver
+404-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
+405            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+405-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
+406            android:exported="true"
+406-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
+407            android:permission="com.google.android.c2dm.permission.SEND" >
+407-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
+408            <intent-filter>
+408-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+409                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+409-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+409-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+410            </intent-filter>
+411        </receiver>
+412
+413        <service
+413-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-41:19
+414            android:name="com.google.firebase.components.ComponentDiscoveryService"
+414-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:18-89
+415            android:directBootAware="true"
+415-->[com.google.firebase:firebase-common:20.3.2] C:\Users\first\.gradle\caches\transforms-3\5b8f204db60e242032d3c62e35d95234\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+416            android:exported="false" >
+416-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\first\.gradle\caches\transforms-3\626ff13b5cd0b43c4b4cd3837ce4bdbc\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:18:13-37
+417            <meta-data
+417-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
+418                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+418-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
+419                android:value="com.google.firebase.components.ComponentRegistrar" />
+419-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
+420            <meta-data
+420-->[:firebase_remote_config] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_remote_config\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+421                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firebaseremoteconfig.FlutterFirebaseAppRegistrar"
+421-->[:firebase_remote_config] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_remote_config\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-139
+422                android:value="com.google.firebase.components.ComponentRegistrar" />
+422-->[:firebase_remote_config] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_remote_config\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+423            <meta-data
+423-->[:cloud_firestore] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+424                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+424-->[:cloud_firestore] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+425                android:value="com.google.firebase.components.ComponentRegistrar" />
+425-->[:cloud_firestore] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+426            <meta-data
+426-->[:firebase_dynamic_links] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:85
+427                android:name="com.google.firebase.components:io.flutter.plugins.firebase.dynamiclinks.FlutterFirebaseAppRegistrar"
+427-->[:firebase_dynamic_links] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-131
+428                android:value="com.google.firebase.components.ComponentRegistrar" />
+428-->[:firebase_dynamic_links] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-82
+429            <meta-data
+429-->[:firebase_analytics] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
+430                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+430-->[:firebase_analytics] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-128
+431                android:value="com.google.firebase.components.ComponentRegistrar" />
+431-->[:firebase_analytics] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+432            <meta-data
+432-->[:firebase_auth] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+433                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+433-->[:firebase_auth] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+434                android:value="com.google.firebase.components.ComponentRegistrar" />
+434-->[:firebase_auth] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+435            <meta-data
+435-->[:firebase_core] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+436                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+436-->[:firebase_core] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+437                android:value="com.google.firebase.components.ComponentRegistrar" />
+437-->[:firebase_core] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+438            <meta-data
+438-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\first\.gradle\caches\transforms-3\626ff13b5cd0b43c4b4cd3837ce4bdbc\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:19:13-21:85
+439                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+439-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\first\.gradle\caches\transforms-3\626ff13b5cd0b43c4b4cd3837ce4bdbc\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:20:17-111
+440                android:value="com.google.firebase.components.ComponentRegistrar" />
+440-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\first\.gradle\caches\transforms-3\626ff13b5cd0b43c4b4cd3837ce4bdbc\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:21:17-82
+441            <meta-data
+441-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\first\.gradle\caches\transforms-3\ab835cabecfc4fc47e9dde29609f9793\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+442                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+442-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\first\.gradle\caches\transforms-3\ab835cabecfc4fc47e9dde29609f9793\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+443                android:value="com.google.firebase.components.ComponentRegistrar" />
+443-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\first\.gradle\caches\transforms-3\ab835cabecfc4fc47e9dde29609f9793\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+444            <meta-data
+444-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\first\.gradle\caches\transforms-3\d708cb9b79bc718c26be38614614ef91\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:26:13-28:85
+445                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+445-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\first\.gradle\caches\transforms-3\d708cb9b79bc718c26be38614614ef91\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:27:17-133
+446                android:value="com.google.firebase.components.ComponentRegistrar" />
+446-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\first\.gradle\caches\transforms-3\d708cb9b79bc718c26be38614614ef91\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:28:17-82
+447            <meta-data
+447-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+448                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+448-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+449                android:value="com.google.firebase.components.ComponentRegistrar" />
+449-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+450            <meta-data
+450-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\first\.gradle\caches\transforms-3\7885f19e5cd3363b59fed4fa07f35b82\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+451                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+451-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\first\.gradle\caches\transforms-3\7885f19e5cd3363b59fed4fa07f35b82\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+452                android:value="com.google.firebase.components.ComponentRegistrar" />
+452-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\first\.gradle\caches\transforms-3\7885f19e5cd3363b59fed4fa07f35b82\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+453            <meta-data
+453-->[com.google.firebase:firebase-config:21.4.0] C:\Users\first\.gradle\caches\transforms-3\41defa001920d71f05a9a4a90142e39c\transformed\jetified-firebase-config-21.4.0\AndroidManifest.xml:31:13-33:85
+454                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+454-->[com.google.firebase:firebase-config:21.4.0] C:\Users\first\.gradle\caches\transforms-3\41defa001920d71f05a9a4a90142e39c\transformed\jetified-firebase-config-21.4.0\AndroidManifest.xml:32:17-117
+455                android:value="com.google.firebase.components.ComponentRegistrar" />
+455-->[com.google.firebase:firebase-config:21.4.0] C:\Users\first\.gradle\caches\transforms-3\41defa001920d71f05a9a4a90142e39c\transformed\jetified-firebase-config-21.4.0\AndroidManifest.xml:33:17-82
+456            <meta-data
+456-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\first\.gradle\caches\transforms-3\d8eba2e0803bdf8557d8dafb42c93f0a\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+457                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+457-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\first\.gradle\caches\transforms-3\d8eba2e0803bdf8557d8dafb42c93f0a\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+458                android:value="com.google.firebase.components.ComponentRegistrar" />
+458-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\first\.gradle\caches\transforms-3\d8eba2e0803bdf8557d8dafb42c93f0a\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+459            <meta-data
+459-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\first\.gradle\caches\transforms-3\afdcc44704aa898027ce94e79203115f\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+460                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+460-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\first\.gradle\caches\transforms-3\afdcc44704aa898027ce94e79203115f\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+461                android:value="com.google.firebase.components.ComponentRegistrar" />
+461-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\first\.gradle\caches\transforms-3\afdcc44704aa898027ce94e79203115f\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+462            <meta-data
+462-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\first\.gradle\caches\transforms-3\57d529385541cfb153acae5fdf3cc612\transformed\jetified-firebase-abt-21.1.1\AndroidManifest.xml:12:13-14:85
+463                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+463-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\first\.gradle\caches\transforms-3\57d529385541cfb153acae5fdf3cc612\transformed\jetified-firebase-abt-21.1.1\AndroidManifest.xml:13:17-109
+464                android:value="com.google.firebase.components.ComponentRegistrar" />
+464-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\first\.gradle\caches\transforms-3\57d529385541cfb153acae5fdf3cc612\transformed\jetified-firebase-abt-21.1.1\AndroidManifest.xml:14:17-82
+465            <meta-data
+465-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\first\.gradle\caches\transforms-3\fbceb7f875929b16a88adaa410df9c48\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+466                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+466-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\first\.gradle\caches\transforms-3\fbceb7f875929b16a88adaa410df9c48\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+467                android:value="com.google.firebase.components.ComponentRegistrar" />
+467-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\first\.gradle\caches\transforms-3\fbceb7f875929b16a88adaa410df9c48\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+468        </service>
+469
+470        <provider
+470-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
+471            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+471-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
+472            android:authorities="com.inspireui.fluxstore.flutterfirebasemessaginginitprovider"
+472-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
+473            android:exported="false"
+473-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+474            android:initOrder="99" />
+474-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
+475
+476        <activity
+476-->[:flutter_paystack] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_paystack\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:54
+477            android:name="co.paystack.flutterpaystack.AuthActivity"
+477-->[:flutter_paystack] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_paystack\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-68
+478            android:theme="@style/Paystack.Dialog" />
+478-->[:flutter_paystack] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_paystack\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-51
+479        <activity
+479-->[:url_launcher_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+480            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+480-->[:url_launcher_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+481            android:exported="false"
+481-->[:url_launcher_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+482            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+482-->[:url_launcher_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+483
+484        <provider
+484-->[:share] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+485            android:name="io.flutter.plugins.share.ShareFileProvider"
+485-->[:share] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-70
+486            android:authorities="com.inspireui.fluxstore.flutter.share_provider"
+486-->[:share] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+487            android:exported="false"
+487-->[:share] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+488            android:grantUriPermissions="true" >
+488-->[:share] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+489            <meta-data
+489-->[:image_picker_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+490                android:name="android.support.FILE_PROVIDER_PATHS"
+490-->[:image_picker_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+491                android:resource="@xml/flutter_share_file_paths" />
+491-->[:image_picker_android] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+492        </provider>
+493
+494        <service
+494-->[:location] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
+495            android:name="com.lyokone.location.FlutterLocationService"
+495-->[:location] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
+496            android:enabled="true"
+496-->[:location] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+497            android:exported="false"
+497-->[:location] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+498            android:foregroundServiceType="location" />
+498-->[:location] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
+499
+500        <receiver
+500-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:49:9-60:20
+501            android:name="com.onesignal.notifications.receivers.FCMBroadcastReceiver"
+501-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:50:13-86
+502            android:exported="true"
+502-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:51:13-36
+503            android:permission="com.google.android.c2dm.permission.SEND" >
+503-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:52:13-73
+504
+505            <!-- High priority so OneSignal payloads can be filtered from other FCM receivers -->
+506            <intent-filter android:priority="999" >
+506-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:55:13-59:29
+506-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:55:28-50
+507                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+507-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+507-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+508
+509                <category android:name="com.inspireui.fluxstore" />
+509-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:58:17-61
+509-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:58:27-58
+510            </intent-filter>
+511        </receiver>
+512
+513        <service
+513-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:62:9-68:19
+514            android:name="com.onesignal.notifications.services.HmsMessageServiceOneSignal"
+514-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:63:13-91
+515            android:exported="false" >
+515-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:64:13-37
+516            <intent-filter>
+516-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:65:13-67:29
+517                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+517-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:66:17-81
+517-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:66:25-78
+518            </intent-filter>
+519        </service>
+520
+521        <activity
+521-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:70:9-78:20
+522            android:name="com.onesignal.notifications.activities.NotificationOpenedActivityHMS"
+522-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:71:13-96
+523            android:exported="true"
+523-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:72:13-36
+524            android:noHistory="true"
+524-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:73:13-37
+525            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+525-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:74:13-72
+526            <intent-filter>
+526-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:75:13-77:29
+527                <action android:name="android.intent.action.VIEW" />
+527-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+527-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+528            </intent-filter>
+529        </activity>
+530
+531        <receiver
+531-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:80:9-82:39
+532            android:name="com.onesignal.notifications.receivers.NotificationDismissReceiver"
+532-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:81:13-93
+533            android:exported="true" />
+533-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:82:13-36
+534        <receiver
+534-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:83:9-90:20
+535            android:name="com.onesignal.notifications.receivers.BootUpReceiver"
+535-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:84:13-80
+536            android:exported="true" >
+536-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:85:13-36
+537            <intent-filter>
+537-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:86:13-89:29
+538                <action android:name="android.intent.action.BOOT_COMPLETED" />
+538-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+538-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+539                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+539-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
+539-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
+540            </intent-filter>
+541        </receiver>
+542        <receiver
+542-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:91:9-97:20
+543            android:name="com.onesignal.notifications.receivers.UpgradeReceiver"
+543-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:92:13-81
+544            android:exported="true" >
+544-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:93:13-36
+545            <intent-filter>
+545-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:94:13-96:29
+546                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+546-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
+546-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
+547            </intent-filter>
+548        </receiver>
+549
+550        <activity
+550-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:99:9-105:75
+551            android:name="com.onesignal.notifications.activities.NotificationOpenedActivity"
+551-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:100:13-93
+552            android:excludeFromRecents="true"
+552-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:101:13-46
+553            android:exported="true"
+553-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:102:13-36
+554            android:noHistory="true"
+554-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:103:13-37
+555            android:taskAffinity=""
+555-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:104:13-36
+556            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+556-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:105:13-72
+557        <activity
+557-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:106:9-111:75
+558            android:name="com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder"
+558-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:107:13-110
+559            android:excludeFromRecents="true"
+559-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:108:13-46
+560            android:exported="true"
+560-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:109:13-36
+561            android:noHistory="true"
+561-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:110:13-37
+562            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+562-->[com.onesignal:notifications:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5f4b49eb74a55940c4956a64e30af595\transformed\jetified-notifications-5.0.3\AndroidManifest.xml:111:13-72
+563
+564        <service
+564-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:13:9-16:43
+565            android:name="com.onesignal.core.services.SyncService"
+565-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:14:13-67
+566            android:exported="false"
+566-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:15:13-37
+567            android:stopWithTask="true" />
+567-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:16:13-40
+568        <service
+568-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:17:9-20:72
+569            android:name="com.onesignal.core.services.SyncJobService"
+569-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:18:13-70
+570            android:exported="false"
+570-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:19:13-37
+571            android:permission="android.permission.BIND_JOB_SERVICE" />
+571-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:20:13-69
+572
+573        <activity
+573-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:22:9-25:75
+574            android:name="com.onesignal.core.activities.PermissionsActivity"
+574-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:23:13-77
+575            android:exported="false"
+575-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:24:13-37
+576            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+576-->[com.onesignal:core:5.0.3] C:\Users\first\.gradle\caches\transforms-3\5a5778c059f2b8566d6f7728721a7165\transformed\jetified-core-5.0.3\AndroidManifest.xml:25:13-72
+577        <activity
+577-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:23:9-26:66
+578            android:name="com.paytm.pgsdk.PaytmPGActivity"
+578-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:24:13-59
+579            android:screenOrientation="portrait"
+579-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:25:13-49
+580            android:theme="@style/Theme.AppCompat.NoActionBar" />
+580-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:26:13-63
+581        <activity
+581-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:27:9-29:63
+582            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+582-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:28:13-64
+583            android:theme="@style/TransparentActivityTheme" />
+583-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:29:13-60
+584
+585        <service
+585-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:31:9-33:40
+586            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+586-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:32:13-73
+587            android:exported="false" />
+587-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:33:13-37
+588        <service
+588-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:34:9-36:40
+589            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+589-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:35:13-72
+590            android:exported="false" />
+590-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:36:13-37
+591        <service
+591-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\first\.gradle\caches\transforms-3\fbe72101767a922afc060bddfdae4d78\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:14:9-17:72
+592            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+592-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\first\.gradle\caches\transforms-3\fbe72101767a922afc060bddfdae4d78\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:15:13-75
+593            android:exported="false"
+593-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\first\.gradle\caches\transforms-3\fbe72101767a922afc060bddfdae4d78\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:16:13-37
+594            android:permission="android.permission.BIND_JOB_SERVICE" />
+594-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\first\.gradle\caches\transforms-3\fbe72101767a922afc060bddfdae4d78\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:17:13-69
+595        <service
+595-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\first\.gradle\caches\transforms-3\fbe72101767a922afc060bddfdae4d78\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:18:9-22:72
+596            android:name="easypay.appinvoke.utils.AnalyticsService"
+596-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\first\.gradle\caches\transforms-3\fbe72101767a922afc060bddfdae4d78\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:19:13-68
+597            android:enabled="true"
+597-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\first\.gradle\caches\transforms-3\fbe72101767a922afc060bddfdae4d78\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:20:13-35
+598            android:exported="false"
+598-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\first\.gradle\caches\transforms-3\fbe72101767a922afc060bddfdae4d78\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:21:13-37
+599            android:permission="android.permission.BIND_JOB_SERVICE" />
+599-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\first\.gradle\caches\transforms-3\fbe72101767a922afc060bddfdae4d78\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:22:13-69
+600
+601        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" />
+601-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\first\.gradle\caches\transforms-3\fbe72101767a922afc060bddfdae4d78\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:24:9-90
+601-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\first\.gradle\caches\transforms-3\fbe72101767a922afc060bddfdae4d78\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:24:19-87
+602        <activity
+602-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:22:9-25:66
+603            android:name="com.facebook.FacebookActivity"
+603-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:23:13-57
+604            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+604-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:24:13-96
+605            android:theme="@style/com_facebook_activity_theme" />
+605-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:25:13-63
+606        <activity android:name="com.facebook.CustomTabMainActivity" />
+606-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:26:9-71
+606-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:26:19-68
+607        <activity
+607-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:27:9-41:20
+608            android:name="com.facebook.CustomTabActivity"
+608-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:28:13-58
+609            android:exported="true" >
+609-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:29:13-36
+610            <intent-filter>
+610-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:31:13-40:29
+611                <action android:name="android.intent.action.VIEW" />
+611-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+611-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+612
+613                <category android:name="android.intent.category.DEFAULT" />
+613-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:17-76
+613-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:27-73
+614                <category android:name="android.intent.category.BROWSABLE" />
+614-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:17-78
+614-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:27-75
+615
+616                <data
+617                    android:host="cct.com.inspireui.fluxstore"
+618                    android:scheme="fbconnect" />
+619            </intent-filter>
+620        </activity>
+621
+622        <receiver
+622-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:42:9-49:20
+623            android:name="com.razorpay.RzpTokenReceiver"
+623-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:43:13-57
+624            android:exported="true" >
+624-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:44:13-36
+625            <intent-filter>
+625-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:46:13-48:29
+626                <action android:name="rzp.device_token.share" />
+626-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:37:13-61
+626-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:37:21-58
+627            </intent-filter>
+628        </receiver>
+629
+630        <activity
+630-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:51:9-59:20
+631            android:name="com.razorpay.CheckoutActivity"
+631-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:52:13-57
+632            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+632-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:53:13-83
+633            android:exported="false"
+633-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:54:13-37
+634            android:theme="@style/CheckoutTheme" >
+634-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:55:13-49
+635            <intent-filter>
+635-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:56:13-58:29
+636                <action android:name="android.intent.action.MAIN" />
+636-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:18:13-65
+636-->[com.paytm.appinvokesdk:appinvokesdk:1.6.13] C:\Users\first\.gradle\caches\transforms-3\dfa781dcd0806c6d0a9f457727b3f46c\transformed\jetified-appinvokesdk-1.6.13\AndroidManifest.xml:18:21-62
+637            </intent-filter>
+638        </activity>
+639
+640        <meta-data
+640-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:61:9-63:58
+641            android:name="com.razorpay.plugin.googlepay_all"
+641-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:62:13-61
+642            android:value="com.razorpay.RzpGpayMerged" /> <!-- Needs to be explicitly declared on P+ -->
+642-->[com.razorpay:checkout:1.6.36] C:\Users\first\.gradle\caches\transforms-3\8fc43504a7a846f8aae17906f3962d8f\transformed\jetified-checkout-1.6.36\AndroidManifest.xml:63:13-55
+643        <uses-library
+643-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\first\.gradle\caches\transforms-3\4d22428f93a627eb45905c23e44f5777\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+644            android:name="org.apache.http.legacy"
+644-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\first\.gradle\caches\transforms-3\4d22428f93a627eb45905c23e44f5777\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+645            android:required="false" />
+645-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\first\.gradle\caches\transforms-3\4d22428f93a627eb45905c23e44f5777\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+646
+647        <activity
+647-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\first\.gradle\caches\transforms-3\4b83e811dc92a28de9a14fba5609e39c\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+648            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+648-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\first\.gradle\caches\transforms-3\4b83e811dc92a28de9a14fba5609e39c\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+649            android:excludeFromRecents="true"
+649-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\first\.gradle\caches\transforms-3\4b83e811dc92a28de9a14fba5609e39c\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+650            android:exported="false"
+650-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\first\.gradle\caches\transforms-3\4b83e811dc92a28de9a14fba5609e39c\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+651            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+651-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\first\.gradle\caches\transforms-3\4b83e811dc92a28de9a14fba5609e39c\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+652        <!--
+653            Service handling Google Sign-In user revocation. For apps that do not integrate with
+654            Google Sign-In, this service will never be started.
+655        -->
+656        <service
+656-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\first\.gradle\caches\transforms-3\4b83e811dc92a28de9a14fba5609e39c\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+657            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+657-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\first\.gradle\caches\transforms-3\4b83e811dc92a28de9a14fba5609e39c\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+658            android:exported="true"
+658-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\first\.gradle\caches\transforms-3\4b83e811dc92a28de9a14fba5609e39c\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+659            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+659-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\first\.gradle\caches\transforms-3\4b83e811dc92a28de9a14fba5609e39c\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+660            android:visibleToInstantApps="true" />
+660-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\first\.gradle\caches\transforms-3\4b83e811dc92a28de9a14fba5609e39c\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+661
+662        <receiver
+662-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\first\.gradle\caches\transforms-3\ab835cabecfc4fc47e9dde29609f9793\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+663            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+663-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\first\.gradle\caches\transforms-3\ab835cabecfc4fc47e9dde29609f9793\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+664            android:exported="true"
+664-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\first\.gradle\caches\transforms-3\ab835cabecfc4fc47e9dde29609f9793\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+665            android:permission="com.google.android.c2dm.permission.SEND" >
+665-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\first\.gradle\caches\transforms-3\ab835cabecfc4fc47e9dde29609f9793\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+666            <intent-filter>
+666-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+667                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+667-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+667-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+668            </intent-filter>
+669        </receiver>
+670        <!--
+671             FirebaseMessagingService performs security checks at runtime,
+672             but set to not exported to explicitly avoid allowing another app to call it.
+673        -->
+674        <service
+674-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\first\.gradle\caches\transforms-3\ab835cabecfc4fc47e9dde29609f9793\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+675            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+675-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\first\.gradle\caches\transforms-3\ab835cabecfc4fc47e9dde29609f9793\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+676            android:directBootAware="true"
+676-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\first\.gradle\caches\transforms-3\ab835cabecfc4fc47e9dde29609f9793\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+677            android:exported="false" >
+677-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\first\.gradle\caches\transforms-3\ab835cabecfc4fc47e9dde29609f9793\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+678            <intent-filter android:priority="-500" >
+678-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+679                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+679-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+679-->[:firebase_messaging] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+680            </intent-filter>
+681        </service>
+682
+683        <activity
+683-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+684            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+684-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+685            android:excludeFromRecents="true"
+685-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+686            android:exported="true"
+686-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+687            android:launchMode="singleTask"
+687-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+688            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+688-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+689            <intent-filter>
+689-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+690                <action android:name="android.intent.action.VIEW" />
+690-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+690-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+691
+692                <category android:name="android.intent.category.DEFAULT" />
+692-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:17-76
+692-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:27-73
+693                <category android:name="android.intent.category.BROWSABLE" />
+693-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:17-78
+693-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:27-75
+694
+695                <data
+696                    android:host="firebase.auth"
+697                    android:path="/"
+698                    android:scheme="genericidp" />
+699            </intent-filter>
+700        </activity>
+701        <activity
+701-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+702            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+702-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+703            android:excludeFromRecents="true"
+703-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+704            android:exported="true"
+704-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+705            android:launchMode="singleTask"
+705-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+706            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+706-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+707            <intent-filter>
+707-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\first\.gradle\caches\transforms-3\13e8068fad27aaea22e48efbc27260d0\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+708                <action android:name="android.intent.action.VIEW" />
+708-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:13-65
+708-->D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\android\app\src\main\AndroidManifest.xml:37:21-62
+709
+710                <category android:name="android.intent.category.DEFAULT" />
+710-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:17-76
+710-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:34:27-73
+711                <category android:name="android.intent.category.BROWSABLE" />
+711-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:17-78
+711-->[com.facebook.android:facebook-common:16.1.3] C:\Users\first\.gradle\caches\transforms-3\6d21a5b8ab07899c2c26d49f6d771d0d\transformed\jetified-facebook-common-16.1.3\AndroidManifest.xml:35:27-75
+712
+713                <data
+714                    android:host="firebase.auth"
+715                    android:path="/"
+716                    android:scheme="recaptcha" />
+717            </intent-filter>
+718        </activity>
+719        <activity
+719-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\first\.gradle\caches\transforms-3\b1481ca35d2bd950121f950afed2c7c3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+720            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+720-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\first\.gradle\caches\transforms-3\b1481ca35d2bd950121f950afed2c7c3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+721            android:exported="false"
+721-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\first\.gradle\caches\transforms-3\b1481ca35d2bd950121f950afed2c7c3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+722            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+722-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\first\.gradle\caches\transforms-3\b1481ca35d2bd950121f950afed2c7c3\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+723
+724        <provider
+724-->[com.google.firebase:firebase-common:20.3.2] C:\Users\first\.gradle\caches\transforms-3\5b8f204db60e242032d3c62e35d95234\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+725            android:name="com.google.firebase.provider.FirebaseInitProvider"
+725-->[com.google.firebase:firebase-common:20.3.2] C:\Users\first\.gradle\caches\transforms-3\5b8f204db60e242032d3c62e35d95234\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+726            android:authorities="com.inspireui.fluxstore.firebaseinitprovider"
+726-->[com.google.firebase:firebase-common:20.3.2] C:\Users\first\.gradle\caches\transforms-3\5b8f204db60e242032d3c62e35d95234\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+727            android:directBootAware="true"
+727-->[com.google.firebase:firebase-common:20.3.2] C:\Users\first\.gradle\caches\transforms-3\5b8f204db60e242032d3c62e35d95234\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+728            android:exported="false"
+728-->[com.google.firebase:firebase-common:20.3.2] C:\Users\first\.gradle\caches\transforms-3\5b8f204db60e242032d3c62e35d95234\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+729            android:initOrder="100" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+729-->[com.google.firebase:firebase-common:20.3.2] C:\Users\first\.gradle\caches\transforms-3\5b8f204db60e242032d3c62e35d95234\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+730        <activity
+730-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:53:9-58:43
+731            android:name="com.google.android.gms.ads.AdActivity"
+731-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:54:13-65
+732            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+732-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:55:13-122
+733            android:exported="false"
+733-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:56:13-37
+734            android:theme="@android:style/Theme.Translucent" />
+734-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:57:13-61
+735
+736        <provider
+736-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:60:9-65:43
+737            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+737-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:61:13-76
+738            android:authorities="com.inspireui.fluxstore.mobileadsinitprovider"
+738-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:62:13-73
+739            android:exported="false"
+739-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:63:13-37
+740            android:initOrder="100" />
+740-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:64:13-36
+741
+742        <service
+742-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:67:9-71:43
+743            android:name="com.google.android.gms.ads.AdService"
+743-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:68:13-64
+744            android:enabled="true"
+744-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:69:13-35
+745            android:exported="false" />
+745-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:70:13-37
+746
+747        <activity
+747-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:73:9-77:43
+748            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+748-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:74:13-82
+749            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+749-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:75:13-122
+750            android:exported="false" />
+750-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\first\.gradle\caches\transforms-3\ee22a65a3383f63506c017a62ae71234\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:76:13-37
+751
+752        <receiver
+752-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+753            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+753-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+754            android:enabled="true"
+754-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+755            android:exported="false" >
+755-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+756        </receiver>
+757
+758        <service
+758-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+759            android:name="com.google.android.gms.measurement.AppMeasurementService"
+759-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+760            android:enabled="true"
+760-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+761            android:exported="false" />
+761-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+762        <service
+762-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+763            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+763-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+764            android:enabled="true"
+764-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+765            android:exported="false"
+765-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+766            android:permission="android.permission.BIND_JOB_SERVICE" />
+766-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\first\.gradle\caches\transforms-3\bfc2a6914373c174e8f7628b08bc3f46\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+767
+768        <meta-data
+768-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\first\.gradle\caches\transforms-3\c0afbaa44633e0bb21dbe4c3b653a76b\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+769            android:name="com.google.android.gms.version"
+769-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\first\.gradle\caches\transforms-3\c0afbaa44633e0bb21dbe4c3b653a76b\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+770            android:value="@integer/google_play_services_version" />
+770-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\first\.gradle\caches\transforms-3\c0afbaa44633e0bb21dbe4c3b653a76b\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+771        <!--
+772         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+773         with the application context. This config is merged in with the host app's manifest,
+774         but there can only be one provider with the same authority activated at any given
+775         point; so if the end user has two or more different apps that use Facebook SDK, only the
+776         first one will be able to use the provider. To work around this problem, we use the
+777         following placeholder in the authority to identify each host application as if it was
+778         a completely different provider.
+779        -->
+780        <provider
+780-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:29:9-32:40
+781            android:name="com.facebook.internal.FacebookInitProvider"
+781-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:30:13-70
+782            android:authorities="com.inspireui.fluxstore.FacebookInitProvider"
+782-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:31:13-72
+783            android:exported="false" />
+783-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:32:13-37
+784
+785        <receiver
+785-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:34:9-40:20
+786            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+786-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:35:13-86
+787            android:exported="false" >
+787-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:36:13-37
+788            <intent-filter>
+788-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:37:13-39:29
+789                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+789-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:38:17-95
+789-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:38:25-92
+790            </intent-filter>
+791        </receiver>
+792        <receiver
+792-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:41:9-47:20
+793            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+793-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:42:13-118
+794            android:exported="false" >
+794-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:43:13-37
+795            <intent-filter>
+795-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:44:13-46:29
+796                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+796-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:45:17-103
+796-->[com.facebook.android:facebook-core:16.1.3] C:\Users\first\.gradle\caches\transforms-3\3be7fdc1156937e21e73c6c7edc2191a\transformed\jetified-facebook-core-16.1.3\AndroidManifest.xml:45:25-100
+797            </intent-filter>
+798        </receiver>
+799
+800        <provider
+800-->[androidx.emoji2:emoji2:1.2.0] C:\Users\first\.gradle\caches\transforms-3\626efec311dacb7bca31f8e7516553e0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+801            android:name="androidx.startup.InitializationProvider"
+801-->[androidx.emoji2:emoji2:1.2.0] C:\Users\first\.gradle\caches\transforms-3\626efec311dacb7bca31f8e7516553e0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+802            android:authorities="com.inspireui.fluxstore.androidx-startup"
+802-->[androidx.emoji2:emoji2:1.2.0] C:\Users\first\.gradle\caches\transforms-3\626efec311dacb7bca31f8e7516553e0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+803            android:exported="false" >
+803-->[androidx.emoji2:emoji2:1.2.0] C:\Users\first\.gradle\caches\transforms-3\626efec311dacb7bca31f8e7516553e0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+804            <meta-data
+804-->[androidx.emoji2:emoji2:1.2.0] C:\Users\first\.gradle\caches\transforms-3\626efec311dacb7bca31f8e7516553e0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+805                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+805-->[androidx.emoji2:emoji2:1.2.0] C:\Users\first\.gradle\caches\transforms-3\626efec311dacb7bca31f8e7516553e0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+806                android:value="androidx.startup" />
+806-->[androidx.emoji2:emoji2:1.2.0] C:\Users\first\.gradle\caches\transforms-3\626efec311dacb7bca31f8e7516553e0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+807            <meta-data
+807-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+808                android:name="androidx.work.WorkManagerInitializer"
+808-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+809                android:value="androidx.startup" />
+809-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+810            <meta-data
+810-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\first\.gradle\caches\transforms-3\1275aaeb3f03a546ea9b5ed5629f49ec\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+811                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+811-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\first\.gradle\caches\transforms-3\1275aaeb3f03a546ea9b5ed5629f49ec\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+812                android:value="androidx.startup" />
+812-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\first\.gradle\caches\transforms-3\1275aaeb3f03a546ea9b5ed5629f49ec\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+813            <meta-data
+813-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+814                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+814-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+815                android:value="androidx.startup" />
+815-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+816        </provider>
+817
+818        <uses-library
+818-->[androidx.window:window:1.0.0-beta04] C:\Users\first\.gradle\caches\transforms-3\fa64b5697e06db1a8a1b952e9beb9ca3\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+819            android:name="androidx.window.extensions"
+819-->[androidx.window:window:1.0.0-beta04] C:\Users\first\.gradle\caches\transforms-3\fa64b5697e06db1a8a1b952e9beb9ca3\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+820            android:required="false" />
+820-->[androidx.window:window:1.0.0-beta04] C:\Users\first\.gradle\caches\transforms-3\fa64b5697e06db1a8a1b952e9beb9ca3\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+821        <uses-library
+821-->[androidx.window:window:1.0.0-beta04] C:\Users\first\.gradle\caches\transforms-3\fa64b5697e06db1a8a1b952e9beb9ca3\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+822            android:name="androidx.window.sidecar"
+822-->[androidx.window:window:1.0.0-beta04] C:\Users\first\.gradle\caches\transforms-3\fa64b5697e06db1a8a1b952e9beb9ca3\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+823            android:required="false" />
+823-->[androidx.window:window:1.0.0-beta04] C:\Users\first\.gradle\caches\transforms-3\fa64b5697e06db1a8a1b952e9beb9ca3\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+824
+825        <service
+825-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+826            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+826-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+827            android:directBootAware="false"
+827-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+828            android:enabled="@bool/enable_system_alarm_service_default"
+828-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+829            android:exported="false" />
+829-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+830        <service
+830-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+831            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+831-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+832            android:directBootAware="false"
+832-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+833            android:enabled="@bool/enable_system_job_service_default"
+833-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+834            android:exported="true"
+834-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+835            android:permission="android.permission.BIND_JOB_SERVICE" />
+835-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+836        <service
+836-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+837            android:name="androidx.work.impl.foreground.SystemForegroundService"
+837-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+838            android:directBootAware="false"
+838-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+839            android:enabled="@bool/enable_system_foreground_service_default"
+839-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+840            android:exported="false" />
+840-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+841
+842        <receiver
+842-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+843            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+843-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+844            android:directBootAware="false"
+844-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+845            android:enabled="true"
+845-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+846            android:exported="false" />
+846-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+847        <receiver
+847-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+848            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+848-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+849            android:directBootAware="false"
+849-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+850            android:enabled="false"
+850-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+851            android:exported="false" >
+851-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+852            <intent-filter>
+852-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+853                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+853-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+853-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+854                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+854-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+854-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+855            </intent-filter>
+856        </receiver>
+857        <receiver
+857-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+858            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+858-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+859            android:directBootAware="false"
+859-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+860            android:enabled="false"
+860-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+861            android:exported="false" >
+861-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+862            <intent-filter>
+862-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+863                <action android:name="android.intent.action.BATTERY_OKAY" />
+863-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+863-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+864                <action android:name="android.intent.action.BATTERY_LOW" />
+864-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+864-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+865            </intent-filter>
+866        </receiver>
+867        <receiver
+867-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+868            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+868-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+869            android:directBootAware="false"
+869-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+870            android:enabled="false"
+870-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+871            android:exported="false" >
+871-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+872            <intent-filter>
+872-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+873                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+873-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+873-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+874                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+874-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+874-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+875            </intent-filter>
+876        </receiver>
+877        <receiver
+877-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+878            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+878-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+879            android:directBootAware="false"
+879-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+880            android:enabled="false"
+880-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+881            android:exported="false" >
+881-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+882            <intent-filter>
+882-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+883                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+883-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+883-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+884            </intent-filter>
+885        </receiver>
+886        <receiver
+886-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+887            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+887-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+888            android:directBootAware="false"
+888-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+889            android:enabled="false"
+889-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+890            android:exported="false" >
+890-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+891            <intent-filter>
+891-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+892                <action android:name="android.intent.action.BOOT_COMPLETED" />
+892-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+892-->[:flutter_local_notifications] D:\codecanyon-oZ51iZ42-fluxstore-the-universal-woocommerce-magento-opencart-mobile-app-by-flutter-framework\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+893                <action android:name="android.intent.action.TIME_SET" />
+893-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+893-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+894                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+894-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+894-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+895            </intent-filter>
+896        </receiver>
+897        <receiver
+897-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+898            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+898-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+899            android:directBootAware="false"
+899-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+900            android:enabled="@bool/enable_system_alarm_service_default"
+900-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+901            android:exported="false" >
+901-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+902            <intent-filter>
+902-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+903                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+903-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+903-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+904            </intent-filter>
+905        </receiver>
+906        <receiver
+906-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+907            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+907-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+908            android:directBootAware="false"
+908-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+909            android:enabled="true"
+909-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+910            android:exported="true"
+910-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+911            android:permission="android.permission.DUMP" >
+911-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+912            <intent-filter>
+912-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+913                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+913-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+913-->[androidx.work:work-runtime:2.7.1] C:\Users\first\.gradle\caches\transforms-3\3ec9a2c4fb8a9922618d8547434219bb\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+914            </intent-filter>
+915        </receiver>
+916        <receiver
+916-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+917            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+917-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+918            android:directBootAware="false"
+918-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+919            android:enabled="true"
+919-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+920            android:exported="true"
+920-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+921            android:permission="android.permission.DUMP" >
+921-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+922            <intent-filter>
+922-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+923                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+923-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+923-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+924            </intent-filter>
+925            <intent-filter>
+925-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+926                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+926-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+926-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+927            </intent-filter>
+928            <intent-filter>
+928-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+929                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+929-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+929-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+930            </intent-filter>
+931            <intent-filter>
+931-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+932                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+932-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+932-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\first\.gradle\caches\transforms-3\3123f1d4e468d575ec1d024be1f0d930\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+933            </intent-filter>
+934        </receiver>
+935
+936        <service
+936-->[androidx.room:room-runtime:2.2.5] C:\Users\first\.gradle\caches\transforms-3\26ae7443e8ed9050426e518a78d6defb\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+937            android:name="androidx.room.MultiInstanceInvalidationService"
+937-->[androidx.room:room-runtime:2.2.5] C:\Users\first\.gradle\caches\transforms-3\26ae7443e8ed9050426e518a78d6defb\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+938            android:directBootAware="true"
+938-->[androidx.room:room-runtime:2.2.5] C:\Users\first\.gradle\caches\transforms-3\26ae7443e8ed9050426e518a78d6defb\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+939            android:exported="false" />
+939-->[androidx.room:room-runtime:2.2.5] C:\Users\first\.gradle\caches\transforms-3\26ae7443e8ed9050426e518a78d6defb\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+940        <service
+940-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\first\.gradle\caches\transforms-3\97127e03214e47a8b41ad87ba22c954c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+941            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+941-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\first\.gradle\caches\transforms-3\97127e03214e47a8b41ad87ba22c954c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+942            android:exported="false" >
+942-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\first\.gradle\caches\transforms-3\97127e03214e47a8b41ad87ba22c954c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+943            <meta-data
+943-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\first\.gradle\caches\transforms-3\97127e03214e47a8b41ad87ba22c954c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+944                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+944-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\first\.gradle\caches\transforms-3\97127e03214e47a8b41ad87ba22c954c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+945                android:value="cct" />
+945-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\first\.gradle\caches\transforms-3\97127e03214e47a8b41ad87ba22c954c\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+946        </service>
+947        <service
+947-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\first\.gradle\caches\transforms-3\5b7a2d8261af2c0dfe555f2c3b20abb4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+948            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+948-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\first\.gradle\caches\transforms-3\5b7a2d8261af2c0dfe555f2c3b20abb4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+949            android:exported="false"
+949-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\first\.gradle\caches\transforms-3\5b7a2d8261af2c0dfe555f2c3b20abb4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+950            android:permission="android.permission.BIND_JOB_SERVICE" >
+950-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\first\.gradle\caches\transforms-3\5b7a2d8261af2c0dfe555f2c3b20abb4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+951        </service>
+952
+953        <receiver
+953-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\first\.gradle\caches\transforms-3\5b7a2d8261af2c0dfe555f2c3b20abb4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+954            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+954-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\first\.gradle\caches\transforms-3\5b7a2d8261af2c0dfe555f2c3b20abb4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+955            android:exported="false" />
+955-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\first\.gradle\caches\transforms-3\5b7a2d8261af2c0dfe555f2c3b20abb4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+956
+957        <activity
+957-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+958            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+958-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+959            android:clearTaskOnLaunch="true"
+959-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+960            android:screenOrientation="sensorLandscape"
+960-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+961            android:stateNotNeeded="true"
+961-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+962            android:theme="@style/zxing_CaptureTheme"
+962-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+963            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+963-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\first\.gradle\caches\transforms-3\32233498c47c6dc0a99a1bf8d4599d67\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+964        <activity
+964-->[com.google.android.play:core-common:2.0.3] C:\Users\first\.gradle\caches\transforms-3\9cfa59f4b756106638fe89e0c8baae79\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+965            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+965-->[com.google.android.play:core-common:2.0.3] C:\Users\first\.gradle\caches\transforms-3\9cfa59f4b756106638fe89e0c8baae79\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93
+966            android:exported="false"
+966-->[com.google.android.play:core-common:2.0.3] C:\Users\first\.gradle\caches\transforms-3\9cfa59f4b756106638fe89e0c8baae79\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:16:13-37
+967            android:stateNotNeeded="true"
+967-->[com.google.android.play:core-common:2.0.3] C:\Users\first\.gradle\caches\transforms-3\9cfa59f4b756106638fe89e0c8baae79\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:17:13-42
+968            android:theme="@style/Theme.PlayCore.Transparent" />
+968-->[com.google.android.play:core-common:2.0.3] C:\Users\first\.gradle\caches\transforms-3\9cfa59f4b756106638fe89e0c8baae79\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
+969    </application>
+970
+971</manifest>

@@ -1,0 +1,6 @@
+framework module easy_paypal {
+  umbrella header "easy_paypal-umbrella.h"
+
+  export *
+  module * { export * }
+}
