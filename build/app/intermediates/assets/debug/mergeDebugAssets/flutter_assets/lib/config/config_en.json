@@ -44,7 +44,7 @@
             "hMargin": 9,
             "showCartButtonWithQuantity": false,
             "vMargin": 30,
-            "onSale": false,
+            "onSale": true,
             "tag": null,
             "backgroundColor": "ffffd9e9",
             "showCartIconColor": true,
@@ -65,7 +65,7 @@
             "name": "Flash Sale Today ⚡️",
             "cartIconRadius": 9,
             "spaceWidth": 156.53672329215112,
-            "category": 48
+            "category": 61
         },
         {
             "layout": "category",
@@ -114,7 +114,7 @@
             "items": [
                 {
                     "category": 47,
-                    "image": "https://user-images.githubusercontent.com/1459805/59846820-12672e80-938b-11e9-8fa6-b331b7db331d.png",
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/1459805/59846820-12672e80-938b-11e9-8fa6-b331b7db331d.png",
                     "padding": 5.0
                 }
             ]
@@ -124,12 +124,12 @@
             "items": [
                 {
                     "category": 50,
-                    "image": "https://user-images.githubusercontent.com/1459805/59846823-12ffc500-938b-11e9-8d93-65ead3d6b1dd.png",
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/1459805/59846823-12ffc500-938b-11e9-8d93-65ead3d6b1dd.png",
                     "padding": 5.0
                 },
                 {
                     "category": 53,
-                    "image": "https://user-images.githubusercontent.com/1459805/59846824-12ffc500-938b-11e9-8d5a-fc42cb1b7658.png",
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/1459805/59846824-12ffc500-938b-11e9-8d5a-fc42cb1b7658.png",
                     "padding": 5.0
                 }
             ]
@@ -147,7 +147,7 @@
             "marginLeft": 0,
             "items": [
                 {
-                    "image": "https://pwa.outletbkk.com/pub/media/icon/bc2352bd25234587671f5638fe8aa610.jpg"
+                    "image": "https://pwa.outletbkk.com/pub/media/icon/62512_p154m_marinablue_m_15.jpg"
                 },
                 {
                     "image": "https://pwa.outletbkk.com/pub/media/icon/62834031-28012200-bc71-11e9-9980-f090df262343.jpg"
@@ -176,6 +176,8 @@
             "name": "Bottoms Collections",
             "image": "",
             "layout": "twoColumn",
+            "enableAutoSliding": true,
+            "durationAutoSliding": 20,
             "category": 51
         }
     ],
@@ -257,7 +259,7 @@
             "layout": "category",
             "pos": 200,
             "icon": "assets/icons/tabs/icon-category.png",
-            "categoryLayout": "card",
+            "categoryLayout": "sideMenuWithGroup",
             "key": "hMAxatGyLG"
         },
         {
@@ -298,7 +300,7 @@
                 "paddingRight":16,
                 "icon":"search",
                 "type":"search",
-                "title":"Find your coffee...",
+                "title":"Search for products",
                 "marginRight":4,
                 "avatarRadius":100,
                 "headerFontWeight":"400",

@@ -118,8 +118,8 @@ Map<String, dynamic> environment = {
 
     /// Below config is used for Magento store
     "DefaultStoreViewCode": "",
-    "EnableAttributesConfigurableProduct": ["color"],
-    "EnableAttributesLabelConfigurableProduct": ["color"],
+    "EnableAttributesConfigurableProduct": ["fashion_color","fashion_size"],
+    "EnableAttributesLabelConfigurableProduct": ["color","size"],
 
     /// if the woo commerce website supports multi languages
     /// set false if the website only have one language
@@ -158,7 +158,7 @@ Map<String, dynamic> environment = {
     "AlwaysShowTabBar": false,
 
     /// Privacy Policies page ID. Accessible in the app via Settings > Privacy menu.
-    "PrivacyPoliciesPageId": 25569,
+    "PrivacyPoliciesPageUrl": "https://www.bangkoksync.com/v2/sync-policy.html",
 
     /// The radius to get vendors in map view for Fluxstore MV
     "QueryRadiusDistance": 10, //km
@@ -166,8 +166,7 @@ Map<String, dynamic> environment = {
     "AutoDetectLanguage": false
   },
   "defaultDrawer": {
-/*"logo": "assets/images/logo.png",*/
-    "logo": "https://info.bangkoksync.com/templates/store_template/Info_v2/images/logo.png",
+    "logo": "assets/images/logo.png",
     "background": null,
     "items": [
       {"type": "home", "show": true},
@@ -215,20 +214,27 @@ Map<String, dynamic> environment = {
     'data': [
       {
         'title': 'Discover something new',
-        'image': 'https://i.imgur.com/XZ48ANH.png',
+        'image': 'https://pwa.outletbkk.com/pub/media/icon/XZ48ANH.png',
         'desc': 'Special new arrivals just for you'
       },
       {
         'title': 'Update trendy outfit',
-        'image': 'https://i.imgur.com/KCkRtvC.png',
+        'image': 'https://pwa.outletbkk.com/pub/media/icon/KCkRtvC.png',
         'desc': 'Favorite brands and hottest trends'
       },
       {
         'title': 'Explore your true style',
-        'image': 'https://i.imgur.com/lbk3KU8.png',
+        'image': 'https://pwa.outletbkk.com/pub/media/icon/lbk3KU8.png',
         'desc': 'Relax and let us bring the style to you'
       }
     ],
+  },
+
+  "notificationRequestScreen": {
+    "icon": "https://assets10.lottiefiles.com/packages/lf20_daV8h3.json",
+    'title': 'Welcome!',
+    'image': 'assets/images/searching.png',
+    'desc': "We'll be sure to keep you in the loop when new products or offers are available. If you ever want to turn off these notifications, you can easily do so in the settings.",
   },
 
   /// ➡️ lib/common/advertise.dart
@@ -355,7 +361,7 @@ Map<String, dynamic> environment = {
     "EnableReview": true,
 
     /// enable the google map picker from Billing Address
-    "allowSearchingAddress": true,
+    "allowSearchingAddress": false,
     "GuestCheckout": true,
 
     /// Enable Payment option
@@ -375,7 +381,9 @@ Map<String, dynamic> environment = {
     "ShowOrderNotes": true,
 
     /// Show Refund and Cancel button on Order Detail
-    "EnableRefundCancel": false
+    "EnableRefundCancel": false,
+    /// If the order completed date is after this period (days), the refund button will be hidden.
+    "RefundPeriod": 7
   },
   "payments": {
     "paypal": "assets/icons/payment/paypal.png",
@@ -435,13 +443,19 @@ Map<String, dynamic> environment = {
   /// ➡️ lib/common/products.dart
   "productDetail": {
     "height": 0.4,
-    "marginTop": 0,
+    "marginTop": 10,
     "safeArea": false,
     "showVideo": true,
-    "showBrand": true,
+    "showBrand": false,
     "showThumbnailAtLeast": 1,
     "layout": "simpleType",
     "borderRadius": 3.0,
+    "attributeLayout": "normal",
+    "fixedBuyButtonToBottom":"false",
+    "buyButtonStyle": "fixedBottom",
+
+
+
 
     /// Enable this to show selected image variant in the top banner.
     "ShowSelectedImageVariant": true,
@@ -460,13 +474,14 @@ Map<String, dynamic> environment = {
     "showProductCategories": true,
     "showProductTags": true,
     "hideInvalidAttributes": false,
-
+    "SliderIndicatorType":"dot",
+    "expandDescription":true,
     /// Enable this to show a quantity selector in product list.
     "showQuantityInList": false,
-
     /// Increase this number if you have yellow layout overflow error in product list.
     /// Should check "RatioProductImage" before changing this number.
     "productListItemHeight": 125
+
   },
   "blogDetail": {
     'showComment': true,
@@ -476,10 +491,10 @@ Map<String, dynamic> environment = {
     'enableAudioSupport': false,
   },
   "productVariantLayout": {
-    "color": "color",
-    "size": "box",
-    "height": "option",
-    "color-image": "image"
+    "fashion_color": "color",
+    "fashion_size": "box"
+    /*"height": "option",
+    "color-image": "image"*/
   },
   "productAddons": {
     /// Set the allowed file type for file upload.
@@ -508,13 +523,13 @@ Map<String, dynamic> environment = {
     /// Set the file size limit (in MB) for upload. Recommended: <15MB.
     "fileUploadSizeLimit": 5.0
   },
-  "cartDetail": {"minAllowTotalCartValue": 0, "maxAllowQuantity": 10},
+  "cartDetail": {"style": "normal", "minAllowTotalCartValue": 0, "maxAllowQuantity": 20},
   "productVariantLanguage": {
     "en": {
-      "color": "Color",
-      "size": "Size",
-      "height": "Height",
-      "color-image": "Color"
+      "fashion_color": "Color",
+      "fashion_size": "Size"
+     /* "height": "Height",
+      "color-image": "Color"*/
     },
     "ar": {
       "color": "اللون",
@@ -545,7 +560,7 @@ Map<String, dynamic> environment = {
 
   /// ➡️ lib/common/smartchat.dart
   "configChat": {
-    "EnableSmartChat": true,
+    "EnableSmartChat": false,
     "showOnScreens": ["profile"],
     "hideOnScreens": [],
   },
@@ -562,8 +577,8 @@ Map<String, dynamic> environment = {
       "iconData": "facebookMessenger"
     }
   ],
-  "adminEmail": "admininspireui@gmail.com",
-  "adminName": "InspireUI",
+  "adminEmail": "bangkoksync@gmail.com",
+  "adminName": "Bangkoksync",
 
   /// ➡️ lib/common/vendor.dart
   "vendorConfig": {
@@ -590,4 +605,5 @@ Map<String, dynamic> environment = {
 
   //lib/common/loading.dart
   "loadingIcon": {"size": 30.0, "type": "fadingCube"}
+
 };
