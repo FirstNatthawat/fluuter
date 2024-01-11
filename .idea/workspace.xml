@@ -127,6 +127,7 @@
       <change beforePath="$PROJECT_DIR$/build/url_launcher_android/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/url_launcher_android/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/video_player_android/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/video_player_android/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/constants/general.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/constants/general.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/common/theme/colors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/theme/colors.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/config/config_en.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/config_en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/env.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/env.dart" afterDir="false" />
